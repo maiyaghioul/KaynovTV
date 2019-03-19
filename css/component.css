@@ -447,3 +447,12 @@ max-width: none !important;
         
 	
 }
+
+#galery_scroll {
+    overflow: scroll;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
