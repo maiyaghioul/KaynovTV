@@ -73,6 +73,14 @@ html.js,
 	transform: translate3d(0, 0, 0);
 }
 
+h5{
+    z-index: 1000;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 2.125em;
+    margin-top: -5px;
+}
+
 .link {
 	font-size: 0.85em;
 	font-weight: bold;
@@ -177,6 +185,14 @@ html.js,
 
 /* page content */
 
+h5{
+    z-index: 1000;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 2.125em;
+    margin-top: -5px;
+}
+
 .info {
 	font-size: 1.25em;
 	max-width: 50%;
@@ -193,9 +209,12 @@ html.js,
 
 /* Menu button */
 
+.droite{
+    width: 50%;
+}
 .menu-button {
 	position: absolute;
-	z-index: 1000;
+	z-index: 400;
 	top: 30px;
 	left: 30px;
 	width: 30px;
@@ -313,8 +332,8 @@ html.js,
 		font-size: 0.9em;
 	}
 	.menu-button {
-		top: 15px;
-		right: 10px;
+		top: 10px;
+		right: 15px;
 		left: auto;
 	}
 	.info {
