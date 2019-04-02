@@ -74,7 +74,7 @@ html.js,
 }
 
 h5{
-    z-index: 1000;
+    z-index: 500;
     margin-left: 50px;
     color: #fff;
     font-size: 2.125em;
@@ -256,10 +256,11 @@ h5{
 	left: 0;
 	overflow: hidden;
 	width: 100%;
-	height: 2px;
+	height: 3px;
 	text-indent: 200%;
 	-webkit-transition: opacity 0.25s;
 	transition: opacity 0.25s;
+        margin-top: 11px;
 }
 
 .menu-button::before {
