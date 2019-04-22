@@ -424,6 +424,11 @@ max-width: none !important;
   padding: 0 4px;
 }
 
+.column iframe {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
 .column img {
   margin-top: 8px;
   vertical-align: middle;
@@ -444,6 +449,14 @@ max-width: none !important;
     max-width: 100%;
   }
 }
-        
-	
+
+}
+
+#galery_scroll {
+    overflow: scroll;
+}
+
+iframe {
+    display: block
+    margin: 0 auto;
 }
